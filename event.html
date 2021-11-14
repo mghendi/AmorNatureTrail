@@ -1,359 +1,515 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="zxx">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Amor Nature Trail - Events</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <title>Amor Nature Trail</title>
+  <meta content="" name="description">
+  <meta content="" name="author">
+  <meta content="" name="keywords">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <!-- favicon -->
+  <link href="assets/img/icon/favicon.png" rel="icon" sizes="32x32" type="image/png">
+  <!-- Bootstrap CSS -->
+  <link href="newassets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- font themify CSS -->
+  <link rel="stylesheet" href="newassets/css/themify-icons.css">
+  <!-- font awesome CSS -->
+  <link href="newassets/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <!-- date picker CSS -->
+  <link href="newassets/css/datepicker.min.css" rel="stylesheet">
+  <!-- revolution slider css -->
+  <link rel="stylesheet" type="text/css" href="newassets/css/fullwidth.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="newassets/rs-plugin/css/settings.css" media="screen" />
+  <link rel="stylesheet" href="newassets/css/rev-settings.css" type="text/css">
+  <!-- on3step CSS -->
+  <link href="newassets/css/animated-on3step.css" rel="stylesheet">
+  <link href="newassets/css/owl.carousel.css" rel="stylesheet">
+  <link href="newassets/css/owl.theme.css" rel="stylesheet">
+  <link href="newassets/css/on3step-style.css" rel="stylesheet">
+  <link href="newassets/css/queries-on3step.css" media="all" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div class="header-area">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <!-- Logo -->
-                        <div class="col-xl-2 col-lg-2">
-                            <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10">
-                            <div class="menu-wrapper d-flex align-items-center justify-content-end">
-                                <!-- Main-menu -->
-                                <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">                                                                                          
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="event.html">Events</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="#">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="events_details.html">Events Details</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <!-- Button -->
-                                            <li class="button-header">
-                                                <a href="#" class="header-btn"> <i class="fas fa-phone-alt"></i> +254 789 221 033</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div> 
-                        <!-- Mobile Menu -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
+
+  <!-- preloader -->
+  <div class="bg-preloader-white"></div>
+  <div class="preloader-white">
+    <div class="mainpreloader">
+      <span></span>
+    </div>
+  </div>
+  <!-- preloader end -->
+
+  <!-- content wraper -->
+  <div class="content-wrapper">
+
+    <header class="init">
+
+      <!-- subnav -->
+      <div class="container-fluid m-5-hor">
+        <div class="row">
+          <div class="subnav">
+
+            <div class="col-md-6">
+              <div class="left">
+                <div class="social-icons-subnav hidden-sm hidden-xs">
+                  <div>Call Us : +254 789 221 033</div>
                 </div>
+              </div>
             </div>
+
+            <div class="col-md-6">
+              <div class="right">
+                <div id="sub-icon" class="social-icons-subnav">
+                  <a href="#"><span class="ti-facebook"></span></a>
+                  <a href="#"><span class="ti-dribbble"></span></a>
+                  <a href="#"><span class="ti-twitter"></span></a>
+                  <a href="#"><span class="ti-instagram"></span></a>
+                  <a href="#"><span class="ti-linkedin"></span></a>
+                </div>
+                <div class="social-icons-subnav">
+                  <a data-toggle="modal" data-target="#fLogin"><span class="ti-lock"></span> Login</a>
+                </div>
+                <div class="social-icons-subnav hidden-sm hidden-xs">
+                  <a data-toggle="modal" data-target="#fsignUp"><span class="ti-user"></span> Sign up</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
+      </div>
+      <!-- subnav end -->
+
+      <!-- nav -->
+      <div class="navbar-default-white navbar-fixed-top">
+        <div class="container-fluid m-5-hor">
+          <div class="row">
+
+            <!-- menu mobile display -->
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+              <span class="icon icon-bar"></span>
+              <span class="icon icon-bar"></span>
+              <span class="icon icon-bar"></span></button>
+
+            <!-- logo -->
+            <a class="navbar-brand white" href="index.html">
+              <img class="white" alt="logo" src="newassets/img/logo.png">
+              <img class="black" alt="logo" src="newassets/img/logo.png">
+            </a>
+            <!-- logo end -->
+
+            <!-- mainmenu start -->
+            <div class="white menu-init" id="main-menu">
+              <nav id="menu-center">
+                <ul>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <!-- mainmenu end -->
+
+          </div>
+        </div>
+        <!-- container -->
+      </div>
+      <!-- nav end -->
     </header>
-    <main>
-        <!-- Hero Area Start-->
-        <div class="slider-area">
-            <div class="single-slider slider-height2 slider-bg2 d-flex align-items-center ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero__caption hero__caption2 text-center">
-                                <h2>All Events</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>    
+
+    <!-- subheader -->
+    <section id="subheader">
+      <div class="container-fluid m-5-hor">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="big-heading">
+              All Events
+            </h1>
+            <p>Varius blandit sit amet</p>
+          </div>
         </div>
-        <!-- Hero Area End -->
-        <!--? services area start -->
-        <section class="services-section section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-5">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle text-center mb-45 ">
-                            <h2>Upcoming Events</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-cat mb-30">
-                            <div class="cat-img">
-                                <img src="assets/img/gallery/services1.jpg" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <div class="pricing d-flex justify-content-between">
-                                    <h3><a href="events_details.html"> Enashpai </a></h3>
-                                    <span class="price">KES 12000</span>
-                                </div>
-                                <p><a href="#">12 Dec - 18 Dec</a>5 Days</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-cat mb-30">
-                            <div class="cat-img">
-                                <img src="assets/img/gallery/services2.jpg" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <div class="pricing d-flex justify-content-between">
-                                    <h3> <a href="events_details.html"> Naivasha </a></h3>
-                                    <span class="price">KES 30000</span>
-                                </div>
-                                <p><a href="#">23 Nov - 25 Nov</a>2 Days</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-cat mb-30">
-                            <div class="cat-img">
-                                <img src="assets/img/gallery/services3.jpg" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <div class="pricing d-flex justify-content-between">
-                                    <h3> <a href="events_details.html"> Maasai Mara </a></h3>
-                                    <span class="price">KES 45000</span>
-                                </div>
-                                <p><a href="#">7 Jan - 10 Jan</a>3 Days</p>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
+      </div>
     </section>
-    <!-- Services End -->
+    <!-- subheader end -->
 
-        <!--Services Table Start -->
-        <section class="services-section section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-5">
-                        <!-- Section Title -->
-                        <div class="section-tittle text-center mb-45 ">
-                            <h2>Events Details</h2>
-                            <span>To Fill.</span>
-                            <table>
-                                <tr>
-                                    <th>Lodge Camp</th>
-                                    <th>Price</th>
-                                    <th>Start Date</th>
-                                    <th>End Date</th>
-                                    <th>Mealplan</th>
-                                </tr>
-                                <?php 
-                                $con = mysqli_connect("localhost", "root", "", "amor");
-                                if ($conn->connect_error) {
-                                    die ("Connection failed:".$conn-> connect_error);
-                                }
-                                $sql = "SELECT lodge_camp, price, start_date, end_date, mealplan from rates";
-                                ?>
-                            </table>
-                        </div>
+    <!-- section -->
+    <section aria-label="section-blog" id="content">
+      <div class="container-fluid m-5-hor">
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4">
+            <div class="gal-home">
+              <a href="event-details.html">
+                <div class="hovereffect">
+                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services1.jpg">
+                </div>
+                <div class="gal-home-content">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h4 class="autoheight">Blue Ocean Island</h4>
+                      <p>Duration 5 days</p>
+                      <div class="star-content">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="review-cont big-heading">1 Reviews</div>
                     </div>
+                    <div class="col-md-4">
+                      <div class="heading-price">From</div>
+                      <div class="price big-heading">$ 1200</div>
+                    </div>
+                  </div>
                 </div>
-                <div class="container">
+              </a>
+            </div>
+          </div>
 
-
-                    
+          <div class="col-md-6 col-lg-4">
+            <div class="gal-home">
+              <a href="event-details.html">
+                <div class="hovereffect">
+                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services2.jpg">
                 </div>
+                <div class="gal-home-content">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h4 class="autoheight">Luxury Asia Travel</h4>
+                      <p>Duration 5 days</p>
+                      <div class="star-content">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="review-cont big-heading">1 Reviews</div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="heading-price">From</div>
+                      <div class="price big-heading">$ 1200</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="gal-home">
+              <a href="event-details.html">
+                <div class="hovereffect">
+                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services3.jpg">
+                </div>
+                <div class="gal-home-content">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h4 class="autoheight">Wild Tour Africa</h4>
+                      <p>Duration 5 days</p>
+                      <div class="star-content">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="review-cont big-heading">1 Reviews</div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="heading-price">From</div>
+                      <div class="price big-heading">$ 1200</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="gal-home">
+              <a href="event-details.html">
+                <div class="hovereffect">
+                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services4.jpg">
+                </div>
+                <div class="gal-home-content">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h4 class="autoheight">Amazing Diversity Place</h4>
+                      <p>Duration 5 days</p>
+                      <div class="star-content">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="review-cont big-heading">1 Reviews</div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="heading-price">From</div>
+                      <div class="price big-heading">$ 1200</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="gal-home">
+              <a href="event-details.html">
+                <div class="hovereffect">
+                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services5.jpg">
+                </div>
+                <div class="gal-home-content">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h4 class="autoheight">Blue Ocean Island</h4>
+                      <p>Duration 5 days</p>
+                      <div class="star-content">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="review-cont big-heading">1 Reviews</div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="heading-price">From</div>
+                      <div class="price big-heading">$ 1200</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="gal-home">
+              <a href="event-details.html">
+                <div class="hovereffect">
+                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services6.jpg">
+                </div>
+                <div class="gal-home-content">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h4 class="autoheight">The Kingdom of West</h4>
+                      <p>Duration 5 days</p>
+                      <div class="star-content">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="review-cont big-heading">1 Reviews</div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="heading-price">From</div>
+                      <div class="price big-heading">$ 1200</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- Services Table End -->
+    <!-- section end -->
 
-
-    <!--? video_start -->
-    <div class="bottom-padding">
-        <div class="container">
-            <div class="video-area section-img-bg2 d-flex align-items-center" data-background="assets/img/gallery/video-bg.jpg">
-                <div class="video-wrap">
-                    <div class="video-icon">
-                        <a class="popup-video" href="https://www.youtube.com/watch?v=up68UAfH0d0">
-                            <img src="assets/img/icon/play-butto.svg" alt="">
-                        </a>
-                    </div>
-                    <h3>Watch our last tour</h3>
-                </div>
+    <!--  subfooter -->
+    <section aria-label="subfooter" class="subfooter no-bottom">
+      <div class="container-fluid m-5-hor">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="wrap-subfooter">
+              <h4>Mission Statement</h4>
+              <div class="subfooter-content-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, ab illo inventore veritatis et quasi architecto
+                beatae vitae dicta sunt explicabo.</div>
+              <span class="logo">
+                <img alt="logo" src="newassets/img/logo-white.png">
+              </span>
             </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1">
+            <div class="wrap-subfooter">
+              <h4>Lattest Destination</h4>
+              <div class="tag-country">
+                <a href="#" class="list-country">
+                  Europe <sup>(40)tours</sup>
+                </a>
+                <a href="#" class="list-country">
+                  Australia <sup>(40)tours</sup>
+                </a>
+                <a href="#" class="list-country">
+                  America <sup>(40)tours</sup>
+                </a>
+                <a href="#" class="list-country">
+                  Asia <sup>(40)tours</sup>
+                </a>
+                <a href="#" class="list-country">
+                  Africa <sup>(40)tours</sup>
+                </a>
+                <a href="#" class="list-country">
+                  Japan <sup>(40)tours</sup>
+                </a>
+                <a href="#" class="list-country">
+                  Rusian <sup>(40)tours</sup>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1">
+            <div class="wrap-subfooter">
+              <h4>Contact Info</h4>
+              <div class="subfooter-content-right">129 Park street, New York City, NY 10903</div>
+              <div class="subfooter-content-right">Phone: (+6221) 999 999 999</div>
+              <div class="subfooter-content-right"><a href="#">Email: companyname@gmail.com</a></div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+    <!--  subfooter end -->
+
+    <!-- footer -->
+    <footer class="main text-center">
+      <div class="container-fluid m-5-hor">
+        <div class="row">
+
+          <div class="onStep" data-animation="fadeInUp" data-time="300">
+            <div class="col-md-4 text-left">
+              <span><a href="#">Email: gracenandy17@gmail.com</a></span>
+              <span>Copyright - 2021 Amor Nature Trail All Right Reserved</span>
+            </div>
+
+            <div class="col-md-4">
+              <span class="logo">
+                <img alt="logo" src="newassets/img/logo.png">
+              </span>
+            </div>
+
+            <div class="col-md-4 text-right">
+              <span>Nextgen Mall, Mombasa Road</span>
+              <span>Phone: +254 789 221 033</span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- ScrolltoTop -->
+    <div id="totop" class="init">
+      <span class="ti-angle-up"></span>
     </div>
-    <!-- video_end -->    
-    <!--? instagram-social start -->
-    <div class="instagram-area fix">
-        <div class="container-fluid p-0">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="instagram-active owl-carousel">
-                        <div class="single-instagram">
-                            <img src="assets/img/gallery/instra1.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                        <div class="single-instagram">
-                            <img src="assets/img/gallery/instra2.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                        <div class="single-instagram">
-                            <img src="assets/img/gallery/instra3.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                        <div class="single-instagram">
-                            <img src="assets/img/gallery/instra4.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                        <div class="single-instagram">
-                            <img src="assets/img/gallery/instra5.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                        <div class="single-instagram">
-                            <img src="assets/img/gallery/instra4.jpg" alt="">
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <!-- modal login -->
+    <div id="fLogin" class="modal fade">
+      <div class="modal-dialog modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Member Log In</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <form action="#" method="post">
+              <div class="form-group">
+                <label>User Name</label>
+                <input type="text" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-block btn-lg" value="Log In">
+              </div>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <a href="#">or Sign Up</a>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- instagram-social End -->
-</main>
-<footer>
-    <div class="footer-wrapper">
-        <div class="footer-area footer-padding">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                        <div class="single-footer-caption mb-50">
-                            <div class="single-footer-caption mb-30">
-                                <!-- logo -->
-                                <div class="footer-logo mb-35">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
-                                </div>
-                                <div class="footer-tittle">
-                                    <div class="footer-pera">
-                                        <p>Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisi ufsit aliquip.</p>
-                                    </div>
-                                    <!-- social -->
-                                    <div class="footer-social">
-                                        <a href="#"><i class="fab fa-twitter-square"></i></a>
-                                        <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-square"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-square"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Navigation</h4>
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-8 col-sm-6">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Services</h4>
-                                <ul>
-                                    <li><a href="#">Book Trip</a></li>
-                                    <li><a href="#">Organize Event</a></li>
-                                    <li><a href="#">Request for Tour Guide</a></li>
-                                    <li><a href="#">Request for Transport</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle mb-20">
-                                <h4>Contact Us</h4>
-                                <p>Nextgen Mall, Mombasa Road</p>
-                                <p>gracenandy17@gmail.com</p>
-                            </div>
-                            <ul class="mb-20">
-                                <li class="number"><a href="#">+254 789 221 033</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- modal login end -->
+
+    <!-- modal registration -->
+    <div id="fsignUp" class="modal fade">
+      <div class="modal-dialog modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Member Registration</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label>First Name</label>
+                <input type="text" name="firstname" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" name="lastname" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="username" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label><input type="checkbox" name="terms"> I agree with the <a href="#">Terms and
+                    Conditions</a>.</label>
+              </div>
+              <div class="form-group"><input type="submit" value="Sign up" class="btn btn-primary btn-block btn-lg">
+              </div>
+              <div class="clearfix"></div>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <a href="#">or Log In</a>
+          </div>
         </div>
-        <!-- footer-bottom area -->
-        <div class="footer-bottom-area">
-            <div class="container">
-                <div class="footer-border">
-                    <div class="row">
-                        <div class="col-xl-12 ">
-                            <div class="footer-copy-right text-center">
-                                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="https://" target="_blank" rel="nofollow noopener">Amor Nature Trail</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-</footer>
-<!-- Scroll Up -->
-<div id="back-top" >
-    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-</div>
+    <!-- modal registration end -->
 
-<!-- JS here -->
-<!-- Jquery, Popper, Bootstrap -->
-<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="./assets/js/popper.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
 
-<!-- Jquery Slick , Owl-Carousel Plugins -->
-<script src="./assets/js/owl.carousel.min.js"></script>
-<script src="./assets/js/slick.min.js"></script>
+  </div>
+  <!-- content wraper end -->
 
-<!-- wow, Mobile Menu -->
-<script src="./assets/js/wow.min.js"></script>
-<script src="./assets/js/jquery.magnific-popup.js"></script>
-<script src="./assets/js/jquery.slicknav.min.js"></script>
-
-<!-- counter , waypoint ,Nice-select -->
-<script src="./assets/js/jquery.counterup.min.js"></script>
-<script src="./assets/js/waypoints.min.js"></script>
-<script src="./assets/js/jquery.nice-select.min.js"></script>
-
-<!-- contact js -->
-<script src="./assets/js/contact.js"></script>
-<script src="./assets/js/jquery.form.js"></script>
-<script src="./assets/js/jquery.validate.min.js"></script>
-<script src="./assets/js/mail-script.js"></script>
-<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-
-<!-- Plugins, main-Jquery -->	
-<script src="./assets/js/plugins.js"></script>
-<script src="./assets/js/main.js"></script>
+  <!-- plugin JS -->
+  <script src="newassets/plugin/pluginson3step.js"></script>
+  <script src="newassets/plugin/bootstrap.min.js"></script>
+  <script src='newassets/plugin/bootstrap-datepicker.min.js'></script>
+  <script src="newassets/plugin/sticky.js"></script>
+  <!-- slider revolution  -->
+  <script src="newassets/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+  <script src="newassets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+  <!-- on3step JS -->
+  <script src="newassets/js/on3step.js"></script>
+  <script src="newassets/js/plugin-set.js"></script>
 </body>
+
 </html>
