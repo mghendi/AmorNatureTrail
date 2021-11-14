@@ -305,7 +305,7 @@
                             <div class="footer-tittle mb-20">
                                 <h4>Contact Us</h4>
                                 <p>Nextgen Mall, Mombasa Road</p>
-                                <p>gracenandy17@gmail.com</p>
+                                <p>amornature.trail@gmail.com</p>
                             </div>
                             <ul class="mb-20">
                                 <li class="number"><a href="#">+254 789 221 033</a></li>
