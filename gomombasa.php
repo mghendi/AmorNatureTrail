@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Rift Valley</title>
+  <title>Mombasa</title>
   <meta content="" name="description">
   <meta content="" name="author">
   <meta content="" name="keywords">
@@ -115,7 +115,7 @@
               <nav id="menu-center">
                 <ul>
                   <li><a href="about.html" style="font-family: 'Nunito Sans', sans-serif; font-size: 14px;">About</a></li>
-                  <li><a href="event.html" style="font-family: 'Nunito Sans', sans-serif; font-size: 14px;">Events</a></li>
+                  <!--<li><a href="event.html" style="font-family: 'Nunito Sans', sans-serif; font-size: 14px;">Events</a></li>-->
                   <li><a href="blog.html" style="font-family: 'Nunito Sans', sans-serif; font-size: 14px;">Blog</a></li>
                   <li><a href="contact.html" style="font-family: 'Nunito Sans', sans-serif; font-size: 14px;">Contact Us</a></li>
                 </ul>
@@ -140,12 +140,12 @@
 
               <li data-transition="parallaxtobottom" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
                 <!--  BACKGROUND IMAGE -->
-                <img src="assets/img/hero/riftvalley.jpg" alt="" data-start="0" data-bgposition="center center"
+                <img src="assets/img/hero/northern.jpg" alt="" data-start="0" data-bgposition="center center"
                   data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="120"
                   data-bgfitend="100" data-bgpositionend="center center" />
                 <div class="tp-caption slide-big-heading sft" data-x="center" data-y="300" data-speed="800"
                   data-start="400" data-easing="easeInOutExpo" data-endspeed="450">
-                  <p style="font-family: 'Permanent Marker', cursive; color: firebrick; font-size: 80px;">Rift Valley</p>
+                  <p style="font-family: 'Permanent Marker', cursive; color: firebrick; font-size: 80px;">Mombasa</p>
                 </div>
 
                 <!--<div class="tp-caption slide-sub-heading sft" data-x="center" data-y="370" data-speed="1000"
@@ -155,7 +155,7 @@
 
                 <div class="tp-caption slide-sub-heading sft" data-x="center" data-y="480" data-speed="1000"
                   data-start="800" data-easing="easeOutExpo" data-endspeed="400">
-                  <p style="font-family: 'Quicksand', sans-serif; color:white; font-size: 25px;">"Perhaps Kenya’s most important topographical feature, it is certainly one of the country’s great distinguishing marks, acting as a human and natural divide."</p>
+                  <p style="font-family: 'Quicksand', sans-serif; color:white; font-size: 25px;">"Description."</p>
                 </div>
 
                 <!--<div class="tp-caption sfb" data-x="center" data-y="550" data-speed="400" data-start="800"
@@ -230,36 +230,10 @@
           </div>-->
           <div class="col-md-6 p-30" >
             <!--<h3 class="big-heading">Regions</h3>-->
-            <p style="font-family: 'Quicksand', sans-serif; font-size: 28px;">Where to?</p>
+            <p style="font-family: 'Quicksand', sans-serif; font-size: 28px;">Details</p>
             <span class="devider-left"></span>
                 
-            <?php
-            $con=mysqli_connect("localhost","root","","amor");
-            // Check connection
-            if (mysqli_connect_errno())
-            {
-            echo "Failed to connect to MySQL: " . mysqli_connect_error();
-            }
             
-            $result = mysqli_query($con,"SELECT * FROM events");
-            
-            echo "<table border='1'>
-            <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            </tr>";
-            
-            while($row = mysqli_fetch_array($result))
-            {
-            echo "<tr>";
-            echo "<td>" . $row['FirstName'] . "</td>";
-            echo "<td>" . $row['LastName'] . "</td>";
-            echo "</tr>";
-            }
-            echo "</table>";
-            
-            mysqli_close($con);
-            ?>
 
           </div>
         </div>
@@ -267,202 +241,6 @@
     </section>
     <!--  top rated end -->
 
-
-    <!--  gallery home -->
-    <section aria-label="gallery">
-      <div class="container-fluid m-5-hor">
-        <div class="row">
-
-        </div>
-      </div>
-
-      <div class="onStep" data-animation="fadeInUp" data-time="0">
-        <div id="owl-gal" class="owl-carousel">
-
-          <div class="item">
-            <div class="gal-home">
-              <a href="projects-detail.html">
-                <div class="hovereffect">
-                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/instra3.jpg">
-                </div>
-                <div class="gal-home-content">
-                  <div class="row">
-                    <div class="col-md-9">
-                      <h4>Lake Naivasha</h4>
-                      <p>Duration 5 days</p>
-                      <div class="star-content">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                      </div>
-                      <div class="review-cont big-heading">1 Reviews</div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="heading-price">From</div>
-                      <div class="price big-heading">KES 12000</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="gal-home">
-              <a href="projects-detail.html">
-                <div class="hovereffect">
-                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/instra6.jpg">
-                </div>
-                <div class="gal-home-content">
-                  <div class="row">
-                    <div class="col-md-9">
-                      <h4>Kisumu</h4>
-                      <p>Duration 5 days</p>
-                      <div class="star-content">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                      </div>
-                      <div class="review-cont big-heading">1 Reviews</div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="heading-price">From</div>
-                      <div class="price big-heading">KES 24000</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="gal-home">
-              <a href="projects-detail.html">
-                <div class="hovereffect">
-                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/instra4.jpg">
-                </div>
-                <div class="gal-home-content">
-                  <div class="row">
-                    <div class="col-md-9">
-                      <h4>Maasai Mara</h4>
-                      <p>Duration 5 days</p>
-                      <div class="star-content">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                      </div>
-                      <div class="review-cont big-heading">1 Reviews</div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="heading-price">From</div>
-                      <div class="price big-heading">KES 32000</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="gal-home">
-              <a href="projects-detail.html">
-                <div class="hovereffect">
-                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services6.jpg">
-                </div>
-                <div class="gal-home-content">
-                  <div class="row">
-                    <div class="col-md-9">
-                      <h4>Mombasa</h4>
-                      <p>Duration 5 days</p>
-                      <div class="star-content">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                      </div>
-                      <div class="review-cont big-heading">1 Reviews</div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="heading-price">From</div>
-                      <div class="price big-heading">KES 35000</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="gal-home">
-              <a href="projects-detail.html">
-                <div class="hovereffect">
-                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/instra5.jpg">
-                </div>
-                <div class="gal-home-content">
-                  <div class="row">
-                    <div class="col-md-9">
-                      <h4>Nairobi National Park</h4>
-                      <p>Duration 1 days</p>
-                      <div class="star-content">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                      </div>
-                      <div class="review-cont big-heading">1 Reviews</div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="heading-price">From</div>
-                      <div class="price big-heading">KES 10000</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="gal-home">
-              <a href="projects-detail.html">
-                <div class="hovereffect">
-                  <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services5.jpg">
-                </div>
-                <div class="gal-home-content">
-                  <div class="row">
-                    <div class="col-md-9">
-                      <h4>Lamu</h4>
-                      <p>Duration 5 days</p>
-                      <div class="star-content">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                      </div>
-                      <div class="review-cont big-heading">1 Reviews</div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="heading-price">From</div>
-                      <div class="price big-heading">KES 40000</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!--  gallery home end -->
 
     <!-- footer -->
     <footer class="main text-center">

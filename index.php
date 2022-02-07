@@ -474,27 +474,27 @@
     
               <div class="item">
                 <div class="gal-home">
-                  <a href="projects-detail.html">
+                  <a href="gomaasaimara.php">
                     <div class="hovereffect">
                       <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/instra3.jpg">
                     </div>
                     <div class="gal-home-content">
                       <div class="row">
                         <div class="col-md-9">
-                          <h4>Lake Naivasha</h4>
-                          <p>Duration 5 days</p>
-                          <div class="star-content">
+                          <h4>Maasai Mara National Reserve</h4>
+                          <p>Game Drive</p>
+                          <!--<div class="star-content">
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                           </div>
-                          <div class="review-cont big-heading">1 Reviews</div>
+                          <div class="review-cont big-heading">1 Reviews</div>-->
                         </div>
                         <div class="col-md-3">
                           <div class="heading-price">From</div>
-                          <div class="price big-heading">KES 12000</div>
+                          <div class="price big-heading">Kes. 3,700 per person</div>
                         </div>
                       </div>
                     </div>
@@ -504,27 +504,27 @@
     
               <div class="item">
                 <div class="gal-home">
-                  <a href="projects-detail.html">
+                  <a href="gonairobi.php">
                     <div class="hovereffect">
                       <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/instra6.jpg">
                     </div>
                     <div class="gal-home-content">
                       <div class="row">
                         <div class="col-md-9">
-                          <h4>Kisumu</h4>
-                          <p>Duration 5 days</p>
-                          <div class="star-content">
+                          <h4>Nairobi National Park</h4>
+                          <p>Game Drive</p>
+                          <!--<div class="star-content">
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                           </div>
-                          <div class="review-cont big-heading">1 Reviews</div>
+                          <div class="review-cont big-heading">1 Reviews</div>-->
                         </div>
                         <div class="col-md-3">
                           <div class="heading-price">From</div>
-                          <div class="price big-heading">KES 24000</div>
+                          <div class="price big-heading">Kes. 2,200 per person</div>
                         </div>
                       </div>
                     </div>
@@ -534,27 +534,27 @@
     
               <div class="item">
                 <div class="gal-home">
-                  <a href="projects-detail.html">
+                  <a href="goamboseli.php">
                     <div class="hovereffect">
                       <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/instra4.jpg">
                     </div>
                     <div class="gal-home-content">
                       <div class="row">
                         <div class="col-md-9">
-                          <h4>Maasai Mara</h4>
-                          <p>Duration 5 days</p>
-                          <div class="star-content">
+                          <h4>Amboseli National Park</h4>
+                          <p>Game Drive</p>
+                          <!--<div class="star-content">
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                           </div>
-                          <div class="review-cont big-heading">1 Reviews</div>
+                          <div class="review-cont big-heading">1 Reviews</div>-->
                         </div>
                         <div class="col-md-3">
                           <div class="heading-price">From</div>
-                          <div class="price big-heading">KES 32000</div>
+                          <div class="price big-heading">Kes. 3,900 per person</div>
                         </div>
                       </div>
                     </div>
@@ -564,27 +564,27 @@
     
               <div class="item">
                 <div class="gal-home">
-                  <a href="projects-detail.html">
+                  <a href="gonakuru.php">
                     <div class="hovereffect">
                       <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services6.jpg">
                     </div>
                     <div class="gal-home-content">
                       <div class="row">
                         <div class="col-md-9">
-                          <h4>Mombasa</h4>
-                          <p>Duration 5 days</p>
-                          <div class="star-content">
+                          <h4>Nakuru National Park</h4>
+                          <p>Game Drive</p>
+                          <!--<div class="star-content">
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                           </div>
-                          <div class="review-cont big-heading">1 Reviews</div>
+                          <div class="review-cont big-heading">1 Reviews</div>-->
                         </div>
                         <div class="col-md-3">
                           <div class="heading-price">From</div>
-                          <div class="price big-heading">KES 35000</div>
+                          <div class="price big-heading">Kes. 3,900 per person</div>
                         </div>
                       </div>
                     </div>
@@ -594,63 +594,34 @@
     
               <div class="item">
                 <div class="gal-home">
-                  <a href="projects-detail.html">
+                  <a href="gomombasa.php">
                     <div class="hovereffect">
                       <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/instra5.jpg">
                     </div>
                     <div class="gal-home-content">
                       <div class="row">
                         <div class="col-md-9">
-                          <h4>Nairobi National Park</h4>
-                          <p>Duration 1 days</p>
-                          <div class="star-content">
+                          <h4>Mombasa</h4>
+                          <p>Destination</p>
+                          <!--<div class="star-content">
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                           </div>
-                          <div class="review-cont big-heading">1 Reviews</div>
+                          <div class="review-cont big-heading">1 Reviews</div>-->
                         </div>
                         <div class="col-md-3">
                           <div class="heading-price">From</div>
-                          <div class="price big-heading">KES 10000</div>
+                          <div class="price big-heading">Kes. x per person</div>
                         </div>
                       </div>
                     </div>
                   </a>
                 </div>
               </div>
-    
-              <div class="item">
-                <div class="gal-home">
-                  <a href="projects-detail.html">
-                    <div class="hovereffect">
-                      <img alt="imageportofolio" class="img-responsive" src="assets/img/gallery/services5.jpg">
-                    </div>
-                    <div class="gal-home-content">
-                      <div class="row">
-                        <div class="col-md-9">
-                          <h4>Lamu</h4>
-                          <p>Duration 5 days</p>
-                          <div class="star-content">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                          </div>
-                          <div class="review-cont big-heading">1 Reviews</div>
-                        </div>
-                        <div class="col-md-3">
-                          <div class="heading-price">From</div>
-                          <div class="price big-heading">KES 40000</div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
+
     
             </div>
           </div>
